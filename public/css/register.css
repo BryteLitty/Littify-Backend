@@ -1,0 +1,52 @@
+
+/* login css */
+.form-container{
+    margin: 0 auto;
+    /* top: 80px; */
+    bottom: 60px;
+    width: 80%;
+    padding: 40px;
+}
+
+
+
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="text"],
+.form-container input[type="number"]{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-container::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+.form-container input[type="checkbox"]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-container input:focus{
+    outline: none;
+}
+
+.new-acc{
+    padding-top: 30px;
+}
+
+.acc{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: blue;
+    font-weight: bolder;
+}

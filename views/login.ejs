@@ -1,0 +1,42 @@
+<%- include("partials/header.ejs"); -%>
+
+
+<link rel="stylesheet" href="./css/register.css">
+
+    <div class="form-container">
+
+        <form action="/login" method="POST">
+            <div class="form-control">
+              <label for="Email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email">
+            </div>
+
+            <div class="form-control new">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control" id="password">
+            </div>
+
+            <!-- forgort password -->
+           <!-- <div class="fp-link">
+            <a href="#" class="link">forgot password</a>
+           </div> -->
+
+            <div class="form-control form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <label class="form-check-label" for="checkbox">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" value="login">Submit</button>
+          </form>
+
+          <div class="new-acc">
+            <h2 class="acc">Don't have an account with us?</h2>
+            <a href="/register" class="link">create an account</a>
+          </div>
+    </div>
+    
+        
+
+</div>
+
+<%- include("partials/footer.ejs"); -%>
